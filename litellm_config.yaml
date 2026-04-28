@@ -1,0 +1,5 @@
+model_list:
+  - model_name: "gpt-4.1-free"
+    litellm_params:
+      api_key: os.environ/"AIHUBMIX_KEY"
+      api_base: https://api.aihubmix.com/v1
