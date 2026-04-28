@@ -1,6 +1,6 @@
-model_list:
-  - model_name: gpt-4.1-free
+# --- AIHubmix (OpenAI 兼容，一个 Key 使用多种模型) ---
+  - model_name: openai/gpt-4o-mini
     litellm_params:
-      model: openai/gpt-4.1-free
-      api_key: os.environ/"AIHUBMIX_KEY"
-      api_base: https://api.aihubmix.com/v1
+      model: openai/gpt-4o-mini
+      api_key: "os.environ/AIHUBMIX_KEY"
+      api_base: https://aihubmix.com/v1
